@@ -24,7 +24,7 @@ namespace api
                 
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "Generate Random Data API", Version = "v1" });
+                c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "NEW Generate Random Data API", Version = "v1" });
             });
         }
 
