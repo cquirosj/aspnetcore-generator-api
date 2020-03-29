@@ -12,7 +12,9 @@ RUN dotnet restore tests/tests.csproj
 
 # copy src
 COPY . .
+
 # test
+ENV TEAMCITY_PROJECT_NAME=fake
 RUN dotnet test tests/tests.csproj
 
 # publish
